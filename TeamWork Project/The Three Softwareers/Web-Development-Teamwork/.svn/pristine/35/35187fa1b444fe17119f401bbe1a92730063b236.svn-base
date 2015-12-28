@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>The Three Softwareers/Mission</title>
+    <link rel="stylesheet" type="text/css" href="../styles/CSS-Reset.css">
+    <link rel="stylesheet" type="text/css" href="../styles/our-mission.css">
+    <script language="javascript" type="text/javascript" src="../js/play-sounds.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="#" title="Home" onmouseover="mouseoversound1.playclip()">Home</a></li>
+            <li><a href="#" title="About us" onmouseover="mouseoversound1.playclip()">Who we are</a>
+                <ul>
+                    <li><a href="Angelos.html">Angelos</a></li>
+                    <li><a href="Bogomos.html">Bogomos</a></li>
+                    <li><a href="Nikolas.html">Nikolas</a></li>
+                </ul>
+            </li>
+            <li><a href="our-mission.html" title="Mission" onmouseover="mouseoversound1.playclip()">What we fight for</a></li>
+            <li><a href="fan-page.html"  title="Fanclub" onmouseover="mouseoversound1.playclip()">Who we have inspired</a></li>
+            <li><a href="contact-us.html" title="Contacts" onmouseover="mouseoversound1.playclip()">Where to find us</a></li>
+        </ul>
+    </nav>
+
+    <section class="bio">
+        <h1>Our Mission</h1>
+
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+
+    </section>
+
+    <footer>
+        <img src="../images/logo-line.png" alt="Logo" width="960px">
+
+        <p class="italic">&copy; Team "Emerald"</p>
+    </footer>
+</div>
+</body>
+</html>

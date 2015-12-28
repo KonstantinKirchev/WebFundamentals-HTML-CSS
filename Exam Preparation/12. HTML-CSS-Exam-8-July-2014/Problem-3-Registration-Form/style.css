@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 246, 246);
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+#wrapper{
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid #000000;
+}
+#wrapper > header > h1{
+    margin-left: 10px;
+}
+#wrapper > main{
+    display: inline-block;
+    width: 525px;
+    margin-left: 10px;
+}
+#wrapper > aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 232px;
+    border: 1px solid #000000;
+    background-color: rgb(253, 253, 254);
+    padding: 10px 5px;
+    margin-top: 14px;
+    margin-left: 7px;
+}
+#wrapper > aside > p:nth-child(2){
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#wrapper > aside > p:nth-child(3){
+    margin-bottom: 10px;
+}
+#wrapper > main > fieldset:nth-child(1) > label:nth-child(2){
+    margin-left: 10px;
+    padding: 15px 40px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#wrapper > main > fieldset:nth-child(1) > label:nth-child(4){
+    margin-left: 10px;
+    padding: 15px 44px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#user{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("username-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#user:focus{
+    background-color: rgb(246, 244, 209);
+}
+#password{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("password-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#password:focus{
+    background-color: rgb(246, 244, 209);
+}
+#wrapper > main > fieldset:nth-child(1) > legend{
+    margin-left: 10px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    padding: 5px;
+}
+#wrapper > main > fieldset:nth-child(1) > form{
+    display: inline-block;
+    background-color: rgb(229, 229, 229);
+    padding: 10px 40px 5px 5px;
+    margin-top: 10px;
+}
+#wrapper > main > fieldset:nth-child(1){
+    border: 1px dashed grey;
+}
+#wrapper > main > fieldset:nth-child(1) > div{
+    margin: 10px 0 10px 138px;
+    padding: 9px 0 5px 0;
+    background-color: rgb(253, 253, 254);
+    border: 1px solid grey;
+    width: 372px;
+}
+#wrapper > main > fieldset:nth-child(1) > div > input[type="submit"]{
+    padding: 5px 10px;
+    background-color: rgb(203, 203, 203);
+    text-transform: uppercase;
+    margin-left: 257px;
+}
+
+#wrapper > main > fieldset:nth-child(2){
+    border: 1px dashed grey;
+    margin-top: 20px;
+}
+#wrapper > main > fieldset:nth-child(2) > legend{
+    margin-left: 10px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    padding: 5px;
+}
+#wrapper > main > fieldset:nth-child(2) > label:nth-child(2){
+    margin-left: 10px;
+    padding: 15px 71px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#wrapper > main > fieldset:nth-child(2) > form{
+    display: inline-block;
+    background-color: rgb(229, 229, 229);
+    padding: 10px 40px 5px 5px;
+    margin-top: 10px;
+}
+#name{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("field-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#wrapper > main > fieldset:nth-child(2) > label:nth-child(4){
+    margin-left: 10px;
+    padding: 15px 55px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#address{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("field-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#wrapper > main > fieldset:nth-child(2) > label:nth-child(6){
+    margin-left: 10px;
+    padding: 15px 86px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#city{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("field-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#wrapper > main > fieldset:nth-child(2) > label:nth-child(8){
+    margin-left: 10px;
+    padding: 15px 58px 12px 10px;
+    background-color: rgb(203, 203, 203);
+}
+#country{
+    width: 300px;
+    padding: 5px;
+    border-radius: 1px;
+    background: url("field-icon.png") no-repeat;
+    background-position-y: 5px;
+    background-color: rgb(253, 253, 254);
+    padding-left: 20px;
+}
+#wrapper > main > fieldset:nth-child(2) > div > input[type="submit"]{
+    padding: 5px 10px;
+    background-color: rgb(203, 203, 203);
+    text-transform: uppercase;
+    margin-left: 257px;
+}
+#wrapper > main > fieldset:nth-child(2) > div{
+    margin: 10px 0 10px 138px;
+    padding: 9px 0 5px 0;
+    background-color: rgb(253, 253, 254);
+    border: 1px solid grey;
+    width: 372px;
+}

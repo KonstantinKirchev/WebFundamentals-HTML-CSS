@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lemon);
+
+body{
+    background-color: #5e2d73;
+    width: 1000px;
+    font-family: "Lemon", "Arial";
+    font-size: 15px;
+}
+main{
+    margin: 20px auto;
+    width: 900px;
+    background-color: #fdad32;
+}
+body > main > section > article{
+    display: inline-block;
+    width: 220px;
+    background-color: #5f2056;
+    margin: 10px 10px 20px 10px;
+    border-radius: 20px 5px;
+    box-sizing: border-box;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #7f6671;
+    cursor: pointer;
+}
+img:hover{
+    border: 3px solid #f94f01;
+}
+body > main > header{
+    text-align: center;
+}
+body > main > section{
+    text-align: center;
+}
+body > main > section > article > p{
+    text-align: left;
+    color: #fdebf6;
+}
+body > main > section > article:nth-child(1) > p:nth-child(2),
+body > main > section > article:nth-child(2) > p:nth-child(2),
+body > main > section > article:nth-child(3) > p:nth-child(2){
+    text-align: center;
+    color: #fdc250;
+}
+h2{
+    color: #fdebf6;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button{
+    font-family: Lemon;
+    width: 200px;
+    border-radius: 10px;
+    color: #9d4afe;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: #000001;
+}
+h1{
+    font-size: 24px;
+    padding: 10px 0 0 0;
+}
+body > main > section > article > p:nth-child(4),
+body > main > section > article > p:nth-child(5),
+body > main > section > article > p:nth-child(6){
+    margin: 0 0 10px 10px;
+}

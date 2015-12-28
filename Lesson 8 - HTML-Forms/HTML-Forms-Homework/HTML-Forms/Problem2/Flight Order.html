@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>FLIGHT ORDER</h1>
+        <div class="left-column">
+            <label>
+                <span>From</span>
+                <select name="from city" id="form city" autofocus="true">
+                    <option value="MBA" selected="selected">enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="toronto">Toronto</option>
+                    <option value="new york">New York</option>
+                </select>
+            </label>
+            <label>
+                <span>Departure Date</span>
+                <input id="departure-date" type="date" name="date" required="true"
+                       title="Please use the format: day.month.year"/>
+            </label>
+            <label>
+                <span>Return Date</span>
+                <input id="return-date" type="date" name="date" required="true"
+                       title="Please use the format: day.month.year"/>
+            </label>
+            <label>
+                <span>12+</span>
+                <input type="number" name="quantity" min="0" max="10">
+            </label>
+            <label>
+                <span>2-12</span>
+                <input type="number" name="quantity" min="0" max="10">
+            </label>
+            <label>
+                <span>0-2</span>
+                <input type="number" name="quantity" min="0" max="10">
+            </label>
+        </div>
+        <div class="right-column">
+            <label>
+                <span>To</span>
+                <select name="to city" id="to city" autofocus="true">
+                    <option value="enter-a-city" selected="selected">enter a city</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="toronto">Toronto</option>
+                    <option value="new york">New York</option>
+                </select>
+            </label>
+            <br/>
+            <p>
+                <input name="agreeTerms" type="checkbox" id="agreeTerms"/>
+                <label for="agreeTerms" class="inline">Prefer directs</label>
+            </p>
+
+            <label>
+                <span>Time Interval</span>
+                <input id="time-interval" type="time" name="time" required="true"
+                       title="Please use the format: day.month.year"/>
+                <input id="time-interval-end" type="time" name="time" required="true"
+                       title="Please use the format: day.month.year"/>
+            </label>
+            <br/>
+
+            <label for="return-time-interval">
+                <span>Time Interval</span>
+                <input id="return-time-interval" type="time" name="time" required="true"
+                       title="Please use the format: day.month.year"/>
+                <input id="return-time-interval-end" type="time" name="time" required="true"
+                       title="Please use the format: day.month.year"/>
+            </label>
+            <br/>
+
+            <label>
+                <span>Choose class</span>
+                <select name="class" id="class" autofocus="true">
+                    <option value="economy" selected="selected">Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first-class">Fist Class</option>
+                    <option value="second-class">Second Class</option>
+                </select>
+            </label>
+            <br/>
+            <input type="submit" class="button" value="Search"/>
+        </div>
+    </div>
+</body>
+</html>

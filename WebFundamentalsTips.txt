@@ -1,0 +1,10 @@
+﻿text-align:center; - подрежда ми текста в средата на екрана
+font-family:verdana - избирам си шрифт
+<small>Small</small> - прави шрифта малък
+<mark>Marked</mark> - маркира текста с жълто
+<del>blue</del> - зачерква текста
+<q>Build a future</q> - поставя кавички
+<abbr title="World Health Organization">WHO</abbr> - дава информация за думата като застанеш на нея отгоре
+<button type="button"onclick="document.getElementById('demo').innerHTML = Date()" style="cursor:pointer">
+Click me to display Date and Time.</button>  <p id="demo"></p> - при натискане на бутона се изписва часа и датата
+<marquee behavior="alternate" direction="right"></marquee> - прави текста да се движи по екрана на дясно

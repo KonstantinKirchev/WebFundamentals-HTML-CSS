@@ -1,0 +1,25 @@
+#container{
+    margin: 10px;
+    width:100%;
+}
+body{
+    background-color: gold;
+}
+.darkBG{
+    background: #1e0536;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.darkerBG{
+    background: #8a0030;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.darkestBG{
+    background: #174c12;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}

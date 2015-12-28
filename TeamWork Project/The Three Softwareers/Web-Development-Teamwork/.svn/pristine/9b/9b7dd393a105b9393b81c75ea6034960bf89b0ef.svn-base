@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Three Softwareers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="C:\Users\Konstantin\Desktop\Software University\Web Fundamentals (HTML + CSS)\TeamWork Project\The Three Softwareers\Web-Development-Teamwork\trunk\styles\main-page.css">
+</head>
+<body>
+        <main>
+            <div><a target="_blank" href="C:\Users\Konstantin\Desktop\Software University\Web Fundamentals (HTML + CSS)\TeamWork Project\The Three Softwareers\Web-Development-Teamwork\trunk\Nikolay\Nikolay.html"></a></div>
+            <div><a target="_blank" href=""></a></div>
+            <div><a target="_blank" href="https://softuni.bg/"></a></div>
+            <div><a target="_blank" href="https://softuni.bg/"></a></div>
+            <div><a target="_blank" href="https://softuni.bg/"></a></div>
+            <div><a target="_blank" href="https://softuni.bg/"></a></div>
+        </main>
+</body>
+</html>

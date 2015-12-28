@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="../styles/CSS-Reset.css">
+    <link rel="stylesheet" href="../styles/contact-us.css">
+    <link href='http://fonts.googleapis.com/css?family=Uncial+Antiqua' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
+    <script language="javascript" type="text/javascript" src="../js/play-sounds.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home" onmouseover="mouseoversound1.playclip()">Home</a></li>
+            <li><a href="fan-page.html" title="About us" onmouseover="mouseoversound1.playclip()">Who we are</a>
+                <ul>
+                    <li><a href="Angelos.html">Angelos</a></li>
+                    <li><a href="Bogomos.html">Bogomos</a></li>
+                    <li><a href="Nikolas.html">Nikolas</a></li>
+                </ul>
+            </li>
+            <li><a href="our-mission.html" title="Mission" onmouseover="mouseoversound1.playclip()">What we fight for</a></li>
+            <li><a href="fan-page.html"  title="Fanclub" onmouseover="mouseoversound1.playclip()">Who we have inspired</a></li>
+            <li><a href="contact-us.html" title="Contacts" onmouseover="mouseoversound1.playclip()">Where to find us</a></li>
+        </ul>
+    </nav>
+
+    <section  class="social" >
+        <img class="profile-pic hvr-pulse" id="angel" src="../images/Angel-name.png" alt="Angel-profile-pic">
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com/achebg">
+                    <img class="fb hvr-buzz" src="../images/fb.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AngelGeorgiev">
+                    <img class="git hvr-buzz" src="../images/github.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://softuni.bg/users/profile/show/achebg">
+                    <img class="softuni hvr-buzz"  src="../images/softuni-hat.png" alt="fb-icon"/>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="social" >
+        <img  class="profile-pic hvr-pulse"  id="bogomil" src="../images/Bogomil-name.png" alt="Bogomil-profile-pic">
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com/Shadestep">
+                    <img class="fb hvr-buzz" src="../images/fb.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/BogomilDimitrov">
+                    <img class="git hvr-buzz" src="../images/github.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://softuni.bg/users/profile/show/Bi0GaMe">
+                    <img class="softuni hvr-buzz"  src="../images/softuni-hat.png" alt="fb-icon"/>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="social" >
+        <img  class="profile-pic hvr-pulse" id="nikolay" src="../images/Nikolay-name.png" alt="Nikolay-profile-pic">
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com/nikbikbank">
+                    <img class="fb hvr-buzz" src="../images/fb.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/bankin">
+                    <img class="git hvr-buzz" src="../images/github.png" alt="fb-icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://softuni.bg/users/profile/show/nikbikbank">
+                    <img class="softuni hvr-buzz"  src="../images/softuni-hat.png" alt="fb-icon"/>
+                </a>
+            </li>
+        </ul>
+    </section>    
+    <footer>
+        <img src="../images/logo-line.png" alt="Logo" width="960px" />
+        <article class="logos">
+            <a href="http://css-validator.org/check/referer" target="_blank">
+                <img src="../images/css3icon.jpg" alt="Валиден CSS!" />
+            </a>
+
+            <a href="http://validator.w3.org" target="_blank">
+                <img src="../images/html5icon.png" alt="Валидатор HTML5">
+            </a>
+        </article>
+        <p>&copy; Team "Emerald"</p>
+    </footer>
+</div>
+</body>
+</html>

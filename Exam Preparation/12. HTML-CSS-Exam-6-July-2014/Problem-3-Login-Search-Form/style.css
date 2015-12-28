@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 350px;
+}
+#wrapper > form > div > input{
+    width: 200px;
+    height: 35px;
+}
+#wrapper > form > div > span{
+    float: left;
+    font-size: 15px;
+    padding: 8px 8px 25px 8px;
+    border: 1px solid rgb(203, 203, 203);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    background-color: rgb(237, 237, 237);
+}
+#wrapper > form > input[type="submit"]{
+     width: 200px;
+     line-height: 20px;
+     border: none;
+     border-radius: 3px;
+     border-bottom: 1px solid green;
+     box-shadow: 0px 2px green;
+     background-color: darkgreen;
+}
+#wrapper > form > div > span{
+    height: 34px;
+    top: 0px;
+    margin-bottom: 10px;
+}
+#wrapper > input[type="search"]{
+    margin-top: 20px;
+}
+#wrapper > form{
+    margin-bottom: 30px;
+
+}
+#wrapper > input[type="search"]{
+    margin-bottom: 1px;
+    border: 1px solid darkgray;
+    border-radius: 5px 0 0 5px;
+}
+#wrapper > button{
+    background-color: rgb(92, 183, 92);
+    border: 1px solid rgb(76, 173, 76);
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    border-color: #229e22;
+    color: white;
+}
+#wrapper > button > span:nth-child(2){
+    margin: 3px 5px;
+}
+#wrapper > span{
+    border-left: none;
+    padding: 3px;
+    top: 2px;
+}
+#wrapper > button > span.glyphicon.glyphicon-search{
+    padding-left: 5px;
+    top: 2px;
+}
+#wrapper > button:hover{
+    border: 1px solid rgb(76, 173, 76);
+}
+#wrapper > input[type="search"]:hover{
+    border-right: none;
+}
+#wrapper > form > input[type="submit"]:hover{
+    border: 1px solid lightgreen;
+    color: white;
+}
+
+

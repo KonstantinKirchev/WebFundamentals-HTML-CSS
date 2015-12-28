@@ -1,0 +1,670 @@
+<<<<<<< .mine
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Daemones;
+    src: url("DAEMONES.ttf");
+}
+@font-face {
+    font-family: Animated;
+    src: url("MB-Demonic_Tale.ttf");
+}
+body {
+    font-family: Daemones;
+    /* Location of the image */
+    background-image: url("resources/Bogomil.png"),url("resources/Nikolay.png"),url("resources/Angel.png"),
+    url("resources/Background.jpg");
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center;
+
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Makes the image fixed in the viewport so that it doesn't move when
+       the content height is greater than the image height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: 100%;
+
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+}
+body > main > div:nth-child(1) > a{
+    width: 15%;
+    height: 90%;
+    top: 2%;
+    left: 17%;
+    position: absolute;
+    cursor: pointer;
+     
+}
+body > main > div:nth-child(2) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 53%;
+    position: absolute;
+    cursor: pointer;
+    
+}
+body > main > div:nth-child(3) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 71%;
+    position: absolute;
+    cursor: pointer;  
+     
+}
+body > main > div:nth-child(4) > a{
+    width: 14%;
+    height: 90%;
+    top: 2%;
+    left: 87%;
+    position: absolute;
+    cursor: pointer; 
+   
+}
+body > main > div:nth-child(5) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 0%;
+    position: absolute;
+    cursor: pointer;
+    
+}
+@media only screen and(max-width: 1600px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	     
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	     
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	    
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	     
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	   
+	}
+}
+@media only screen and(max-width: 1024px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	   
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	   
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	    
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	    
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	   
+	}
+}
+@media only screen and(max-width: 960px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	     
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	      
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	    
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+}
+@media only screen and(max-width: 768px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	     
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	      
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+}
+@media only screen and(max-width: 640px){
+	body > main > div:nth-child(1) > a{
+	    width: 10%;
+	    height: 20%;
+	    top: 26%;
+	    left: 17%;
+	     
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 10%;
+	    height: 20%;
+	    top: 26%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	    
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	     
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+}
+@media only screen and(max-width: 480px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	   
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	    
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	      
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	     
+	}
+}
+@media only screen and(max-width: 320px){
+	body > main > div:nth-child(1) > a{
+	    width: 15%;
+	    height: 90%;
+	    top: 2%;
+	    left: 17%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(2) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 53%;
+	    position: absolute;
+	    cursor: pointer;
+	    
+	}
+	body > main > div:nth-child(3) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 71%;
+	    position: absolute;
+	    cursor: pointer;  
+	    border: 1px solid black;  
+	}
+	body > main > div:nth-child(4) > a{
+	    width: 14%;
+	    height: 90%;
+	    top: 2%;
+	    left: 87%;
+	    position: absolute;
+	    cursor: pointer; 
+	    border: 1px solid black;   
+	}
+	body > main > div:nth-child(5) > a{
+	    width: 16%;
+	    height: 90%;
+	    top: 2%;
+	    left: 0%;
+	    position: absolute;
+	    cursor: pointer;
+	    border: 1px solid black;  
+	}
+}=======
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1024px;
+	position: relative;
+}
+body{
+	background-color: darkgrey;
+}
+#wrapper > main > img:nth-child(1){
+	width: 100%;
+	position: absolute;
+}
+#wrapper > main > a:nth-child(2) > img{
+	width: 10%;
+	position: absolute;
+	left: 13px;
+	top: 68px;
+}
+#wrapper > main > a:nth-child(2) > img:hover{
+	background-image: url(resources/Alex-hover.png);
+}
+#wrapper > main > a:nth-child(3) > img{
+	width: 7%;
+	position: absolute;
+	left: 272px;
+	top: 25px;
+}
+#wrapper > main > a:nth-child(3) > img:hover{
+	background-image: url(resources/pigeon-hover.png);
+}
+#wrapper > main > a:nth-child(4) > img{
+	width: 9%;
+	position: absolute;
+	left: 654px;
+	top: 12px;
+}
+#wrapper > main > a:nth-child(4) > img:hover{
+	background-image: url(resources/star-hover.png);	
+}
+#wrapper > main > a:nth-child(5) > img{
+	width: 14%;
+	position: absolute;
+	left: 875px;
+	top: 4px;
+}
+#wrapper > main > a:nth-child(5) > img:hover{
+	background-image: url(resources/board-hover.png);
+}
+#wrapper > main > a:nth-child(6) > img{
+	width: 35%;
+	position: absolute;
+	left: 305px;
+	top: 90px;
+}
+#wrapper > main > a:nth-child(6) > img:hover{
+	background-image: url(resources/Angel-hover.png);
+}
+#wrapper > main > a:nth-child(7) > img{
+	width: 35%;
+	position: absolute;
+	left: 580px;
+	top: 140px;
+}
+#wrapper > main > a:nth-child(7) > img:hover{
+	background-image: url(resources/Bogomil-hover.png);
+}
+
+#wrapper > main > a:nth-child(8) > img{
+	width: 35%;
+	position: absolute;
+	left: 95px;
+	top: 160px;
+}
+#wrapper > main > a:nth-child(8) > img:hover{
+	background-image: url(resources/Nikolay-hover.png);
+}
+
+#wrapper > main > a:nth-child(9) > img{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+
+
+
+
+@media all and (max-width: 1600px){
+	#wrapper > main > img:nth-child(1){
+	width: 100%;
+	position: absolute;
+}
+#wrapper > main > a:nth-child(2) > img{
+	width: 10%;
+	position: absolute;
+	left: 13px;
+	top: 68px;
+}
+#wrapper > main > a:nth-child(2) > img:hover{
+	background-image: url(resources/Alex-hover.png);
+}
+#wrapper > main > a:nth-child(3) > img{
+	width: 7%;
+	position: absolute;
+	left: 272px;
+	top: 25px;
+}
+#wrapper > main > a:nth-child(3) > img:hover{
+	background-image: url(resources/pigeon-hover.png);
+}
+#wrapper > main > a:nth-child(4) > img{
+	width: 9%;
+	position: absolute;
+	left: 654px;
+	top: 12px;
+}
+#wrapper > main > a:nth-child(4) > img:hover{
+	background-image: url(resources/star-hover.png);	
+}
+#wrapper > main > a:nth-child(5) > img{
+	width: 14%;
+	position: absolute;
+	left: 875px;
+	top: 4px;
+}
+#wrapper > main > a:nth-child(5) > img:hover{
+	background-image: url(resources/board-hover.png);
+}
+#wrapper > main > a:nth-child(6) > img{
+	width: 35%;
+	position: absolute;
+	left: 305px;
+	top: 90px;
+}
+#wrapper > main > a:nth-child(6) > img:hover{
+	background-image: url(resources/Angel-hover.png);
+}
+#wrapper > main > a:nth-child(7) > img{
+	width: 35%;
+	position: absolute;
+	left: 580px;
+	top: 140px;
+}
+#wrapper > main > a:nth-child(7) > img:hover{
+	background-image: url(resources/Bogomil-hover.png);
+}
+
+#wrapper > main > a:nth-child(8) > img{
+	width: 35%;
+	position: absolute;
+	left: 95px;
+	top: 160px;
+}
+#wrapper > main > a:nth-child(8) > img:hover{
+	background-image: url(resources/Nikolay-hover.png);
+}
+
+#wrapper > main > a:nth-child(9) > img{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+}
+@media all and (max-width: 1024px){
+	
+}
+@media all and (max-width: 960px){
+	
+}
+@media all and (max-width: 768px){
+	
+}
+@media all and (max-width: 640px){
+	#wrapper > main > img:nth-child(1){
+	width: 63%;
+	position: absolute;
+}
+#wrapper > main > a:nth-child(2) > img{
+	width: 6%;
+	position: absolute;
+	left: 13px;
+	top: 68px;
+}
+#wrapper > main > a:nth-child(2) > img:hover{
+	background-image: url(resources/Alex-hover.png);
+}
+#wrapper > main > a:nth-child(3) > img{
+	width: 5%;
+	position: absolute;
+	left: 175px;
+	top: 14px;
+}
+#wrapper > main > a:nth-child(3) > img:hover{
+	background-image: url(resources/pigeon-hover.png);
+}
+#wrapper > main > a:nth-child(4) > img{
+	width: 9%;
+	position: absolute;
+	left: 654px;
+	top: 12px;
+}
+#wrapper > main > a:nth-child(4) > img:hover{
+	background-image: url(resources/star-hover.png);	
+}
+#wrapper > main > a:nth-child(5) > img{
+	width: 14%;
+	position: absolute;
+	left: 875px;
+	top: 4px;
+}
+#wrapper > main > a:nth-child(5) > img:hover{
+	background-image: url(resources/board-hover.png);
+}
+#wrapper > main > a:nth-child(6) > img{
+	width: 35%;
+	position: absolute;
+	left: 305px;
+	top: 90px;
+}
+#wrapper > main > a:nth-child(6) > img:hover{
+	background-image: url(resources/Angel-hover.png);
+}
+#wrapper > main > a:nth-child(7) > img{
+	width: 35%;
+	position: absolute;
+	left: 580px;
+	top: 140px;
+}
+#wrapper > main > a:nth-child(7) > img:hover{
+	background-image: url(resources/Bogomil-hover.png);
+}
+
+#wrapper > main > a:nth-child(8) > img{
+	width: 35%;
+	position: absolute;
+	left: 95px;
+	top: 160px;
+}
+#wrapper > main > a:nth-child(8) > img:hover{
+	background-image: url(resources/Nikolay-hover.png);
+}
+
+#wrapper > main > a:nth-child(9) > img{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+}
+@media all and (max-width: 480px){
+	
+}
+@media all and (max-width: 320px){
+	
+}>>>>>>> .r43

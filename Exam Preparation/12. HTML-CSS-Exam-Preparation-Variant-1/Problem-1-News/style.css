@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 330px;
+    font-family: "Tahoma", "Geneva", "sans-serif";
+    font-size: 0.8em;
+}
+#wrapper > main > section:nth-child(1){
+    padding: 3px 3px 0 3px;
+}
+#wrapper > main > section:nth-child(1) > article > img{
+    border: 3px double black;
+}
+#wrapper > main > section:nth-child(1) > article > section{
+    display: inline-block;
+    width: 186px;
+    vertical-align: top;
+}
+
+#wrapper > main > section:nth-child(1) > article > section > h3 > a{
+    text-decoration: none;
+    color: #000000;
+}
+#wrapper > main > section:nth-child(1) > article > section > h3 > a:hover{
+    text-decoration: underline;
+    color: rgba(135, 137, 139, 0.9);
+}
+#wrapper > main > section:nth-child(1) > article > section > p:nth-child(2){
+    margin-bottom: 3px;
+    color: rgba(135, 137, 139, 0.9);
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(1) > article > section > h3{
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(1) > article > section > p:nth-child(3){
+    font-size: 0.9em;
+}
+#wrapper > main > hr{
+    width: 290px;
+    border: 0;
+    border-bottom: 2px dotted #ccc;
+    margin-left: 6px;
+}
+#wrapper > main > section:nth-child(3){
+    padding: 3px 3px 0 3px;
+}
+#wrapper > main > section:nth-child(3) > article > img{
+    border: 3px double black;
+}
+#wrapper > main > section:nth-child(3) > article > section{
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+}
+#wrapper > main > section:nth-child(3) > article > section > h3 > a{
+    text-decoration: none;
+    color: #000000;
+}
+#wrapper > main > section:nth-child(3) > article > section > h3 > a:hover{
+    text-decoration: underline;
+    color: rgba(135, 137, 139, 0.9);
+}
+#wrapper > main > section:nth-child(3) > article > section > h3{
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(3) > article > section > p:nth-child(3){
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(3) > article > section > p:nth-child(2){
+    margin-bottom: 3px;
+    color: rgba(135, 137, 139, 0.9);
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(5){
+    padding: 3px 3px 0 3px;
+}
+#wrapper > main > section:nth-child(5) > article > section{
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+}
+#wrapper > main > section:nth-child(5) > article > section > h3 > a{
+    text-decoration: none;
+    color: #000000;
+}
+#wrapper > main > section:nth-child(5) > article > section > h3 > a:hover{
+    text-decoration: underline;
+    color: rgba(135, 137, 139, 0.9);
+}
+#wrapper > main > section:nth-child(5) > article > section > h3{
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(5) > article > img{
+    border: 3px double black;
+}
+#wrapper > main > section:nth-child(5) > article > section > p:nth-child(2){
+    margin-bottom: 3px;
+    color: rgba(135, 137, 139, 0.9);
+    font-size: 0.9em;
+}
+#wrapper > main > section:nth-child(5) > article > section > p:nth-child(3){
+    font-size: 0.9em;
+}
+
+

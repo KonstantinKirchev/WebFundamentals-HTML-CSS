@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid black;
+}
+#wrapper > form > label:nth-child(2){
+    margin-left: 30px;
+}
+#name{
+    width: 300px;
+    margin: 0 30px;
+    background: url(Name.jpg) no-repeat;
+    background-size: 8%;
+    background-color: white;
+    background-position: left;
+    background-position-x: 8px;
+    padding-left: 50px;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    border: 2px solid grey;
+}
+#name:focus{
+    border: 2px solid darkred;
+    outline: none;
+}

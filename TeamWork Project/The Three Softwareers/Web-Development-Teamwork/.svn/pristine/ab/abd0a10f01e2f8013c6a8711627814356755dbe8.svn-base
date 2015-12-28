@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1600px;
+	position: relative;
+}
+
+body {
+	background-color: #000;
+}
+
+.background {
+	width: 100%;
+	position: absolute;
+}
+
+.alex {
+	width: 206px;
+	height: 491px;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	background: url('../images/Alex.png')
+}
+
+.alex:hover {
+	width: 206px;
+	height: 491px;
+	background-image: url(../images/Alex-hover.png);
+}
+
+.contacts {
+	width: 178px;
+	height: 191px;
+	position: absolute;
+	left: 405px;
+	top: 5px;
+	background-image: url(../images/pigeon.png);
+}
+
+.contacts:hover {
+	width: 178px;
+	height: 191px;
+	background-image: url(../images/pigeon-hover.png);
+}
+
+.mission {
+	width: 219px;
+	height: 100px;
+	position: absolute;
+	left: 1000px;
+	top: 5px;
+	background-image: url(../images/star.png);
+}
+
+.mission:hover {
+	width: 219px;
+	height: 100px;
+	background-image: url(../images/star-hover.png);	
+}
+
+.news {
+	width: 272px;
+	height: 328px;
+	position: absolute;
+	left: 1329px;
+	top: 4px;
+	background-image: url(../images/board.png);
+}
+
+.news:hover {
+	width: 272px;
+	height: 328px;
+	background-image: url(../images/board-hover.png);
+}
+
+.angelos {
+	width: 567px;
+	height: 804px;
+	position: absolute;
+	left: 475px;
+	top: 59px;
+	background-image: url(../images/Angel.png);
+}
+
+.angelos:hover {
+	width: 567px;
+	height: 804px;
+	height: 848px;
+	background-image: url(../images/Angel-hover.png);
+}
+
+.bogomos {
+	width: 604px;
+	height: 816px;
+	position: absolute;
+	left: 850px;
+	top: 200px;
+	background-image: url(../images/Bogomil.png);
+}
+
+.bogomos:hover {
+	width: 604px;
+	height: 816px;
+	background-image: url(../images/Bogomil-hover.png);
+}
+
+.nikolas {
+	width: 773px;
+	height: 825px;
+	position: absolute;
+	left: 60px;
+	top: 170px;
+	background-image: url(../images/Nikolay.png);
+}
+
+.nikolas:hover {
+	width: 773px;
+	height: 825px;
+	background-image: url(../images/Nikolay-hover.png);
+}
+
+.logo {
+	width: 1600px;
+	height: 459px;
+	position: absolute;
+	left: 0px;
+	top: 630px;
+	background-image: url(../images/logo-line.png);
+}
+@media all and (max-width: 1600px){
+	
+}
+@media all and (max-width: 1024px){
+	
+}
+@media all and (max-width: 960px){
+	
+}
+@media all and (max-width: 768px){
+	
+}
+@media all and (max-width: 640px){
+	
+}
+@media all and (max-width: 480px){
+	
+}
+@media all and (max-width: 320px){
+	
+}

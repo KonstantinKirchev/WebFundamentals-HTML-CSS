@@ -1,0 +1,123 @@
+body{
+    background-color: #00923E;
+}
+table{
+    text-align: center;
+    border-collapse: separate;
+    width: 855px;
+    margin: 50px auto;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+th{
+    font-family: verdana;
+    background-color: #F8C711;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 35px;
+    padding: 5px;
+}
+th:first-child {
+    border-top-left-radius: 12px;
+}
+th:last-child {
+    border-top-right-radius: 12px;
+    border-right: none;
+}
+tr:nth-child(2n){
+    background-color: #ffffff;
+}
+tr:nth-child(2n+1){
+    background-color: #c8c8c8;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+td{
+    padding: 5px;
+    height: 38px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+td:last-child {
+    border-right: none;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.flag{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.br{
+    background: url('img/br.png');
+}
+.mx{
+    background: url('img/mx.png');
+}
+.es{
+    background: url('img/es.png');
+}
+.nl{
+    background: url('img/nl.png');
+}
+.it{
+    background: url('img/it.png');
+}
+.en{
+    background: url('img/en.png');
+}
+.ar{
+    background: url('img/ar.png');
+}
+.ba{
+    background: url('img/ba.png');
+}
+.de{
+    background: url('img/de.png');
+}
+.pt{
+    background: url('img/pt.png');
+}
+
+select {
+    width: 34px;
+    background: #dcdcdc;
+    padding: 5px 0;
+    color: red;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+}
+select.green {
+    color: green;
+}
+a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 34px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 2px solid #888888;
+}
+a.green-bet {
+    background-color: #008000;
+}

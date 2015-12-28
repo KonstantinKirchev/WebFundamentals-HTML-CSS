@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    padding: 10px;
+    background-color: #ededed;
+    font-family: "Tahoma", "Time New Roman", "sans-serif";
+}
+#wrapper > h1{
+    color: #224365;
+    margin-left: 10px;
+}
+#wrapper > p{
+    color: #c7c7c7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#wrapper > form:nth-child(3){
+    display: inline-block;
+    width: 435px;
+    padding: 10px;
+}
+#wrapper > form:nth-child(3) > h2{
+    color: #646464;
+    margin-left: 10px;
+}
+#wrapper > form:nth-child(3) > h2 > span{
+    color: #244465;
+}
+#name{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-color: #e1e1e1;
+}
+#email{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-color: #e1e1e1;
+}
+#password{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-color: #e1e1e1;
+}
+#wrapper > form:nth-child(3) > input.button{
+    width: 180px;
+    padding: 10px 30px;
+    margin-left: 243px;
+    margin-top: 10px;
+    border-color: #5a7289;
+    color: #254666;
+    background-color: #ededed;
+}
+#wrapper > form:nth-child(4){
+    display: inline-block;
+    width: 435px;
+    vertical-align: top;
+    background-color: #234465;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+#wrapper > form:nth-child(4) > h2{
+    padding-left: 10px;
+}
+#wrapper > form:nth-child(4) > p:nth-child(5){
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#agreeTerms{
+    width: 20px;
+    height: 27px;
+}
+#wrapper > form:nth-child(4) > p:nth-child(5) > label{
+    vertical-align: top;
+}
+#wrapper > form:nth-child(4) > input.button{
+    display: inline-block;
+    width: 140px;
+    vertical-align: top;
+    padding: 10px;
+    margin-left: 132px;
+    margin-top: 10px;
+    color: white;
+    border-color: #dc8e0f;
+    background-color: #234465;
+}
+#wrapper > form:nth-child(4) > p:nth-child(7){
+    margin-left: 305px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+#wrapper > form:nth-child(4) > p:nth-child(7) > a{
+    color: white;
+}
+
+

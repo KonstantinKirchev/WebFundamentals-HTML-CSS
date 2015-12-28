@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1024px;
+	background-color: black;
+	border-radius: 10px;
+}
+h1{
+	text-align: center;
+	padding: 10px;
+	color: yellow;
+	font-size: 50px;
+}
+iframe{
+	margin: 20px 20px;
+	border: 1px solid yellow;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+	font-style: italic;
+	cursor: pointer;
+}

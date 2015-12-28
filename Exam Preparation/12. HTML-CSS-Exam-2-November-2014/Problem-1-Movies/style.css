@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica", "Tahoma", "sans-serif";
+    font-size: 16px;
+}
+main{
+    margin: 0 auto;
+    width: 160px;
+}
+
+body > main > header > img{
+    margin: 0 auto;
+    width: 160px;
+    border: 1px solid black;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+body > main > header > img:hover{
+    background-color: rgb(129, 0, 1);
+}
+
+
+body > main > footer > img{
+
+    border: 1px solid rgb(169, 169, 169);
+    padding: 2px;
+    color: rgb(169, 169, 169);
+}
+body > main > footer > img:hover{
+    background-color: rgb(129, 0, 1);
+}
+body > main > footer > span{
+    font-size: 12px;
+}
+body > main > footer{
+    margin-top: 5px;
+    color: rgb(169, 169, 169);
+}
+body > main > footer > span{
+    vertical-align: text-top;
+
+}

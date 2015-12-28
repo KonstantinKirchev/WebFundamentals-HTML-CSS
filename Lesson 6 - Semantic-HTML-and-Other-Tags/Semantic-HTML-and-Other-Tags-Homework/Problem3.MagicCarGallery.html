@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic Car Gallery</title>
+	<link rel="stylesheet" type="text/css" href="Problem3.style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Magic Car Gallery</h1>
+		</header>
+		<main>
+			<table>
+				<tr>
+					<td>
+						<iframe id="myFrame" width="420" height="320" 
+						src="http://www.washingtonhispanic.com/notas_fotos/17630_20140327152714.jpg">
+						</iframe>
+					</td>
+					<td>
+						<script>
+							function FordMustang() {
+	    					document.getElementById("myFrame").src = "http://www.washingtonhispanic.com/notas_fotos/17630_20140327152714.jpg";}
+	    					function BMW() {
+	    					document.getElementById("myFrame").src = "http://nationwideautolease.com/wp-content/uploads/2013/11/bmw-m5-nighthawk-limited-edition-japan-exclusive-2-600x400-420x320.jpg";}
+	    					function Porsche() {
+	    					document.getElementById("myFrame").src = "http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/3e/be/3ebec6873ad626672c4444fb336fc909.jpg?itok=KuoguMvi";}
+	    					function Audi() {
+	    					document.getElementById("myFrame").src = "http://www.aa.co.nz/assets/motoring/car-reviews/audi/rs5/2010/_resampled/CroppedImage420320-audi-rs5-2010-03.jpg?m=1404175919";}
+	    					function Mercedes() {
+	    					document.getElementById("myFrame").src = "http://c.mobofree.com/m/5/53c8363a5665ed4e5c8b4575_1024x768/2009-mercedes-benz-C63-AMG_13.jpg";}
+						</script>
+						<a onclick="FordMustang()">FordMustang</a>
+						<br/>
+						<a onclick="BMW()">BMW M5</a>
+						<br/>
+						<a onclick="Porsche()">Porsche Panamera</a>
+						<br/>
+						<a onclick="Audi()">Audi RS5</a>
+						<br/>
+						<a onclick="Mercedes()">Mercedes-Benz C63 AMG</a>
+					</td>
+				</tr>
+			</table>
+		</main>
+	</div>
+</body>
+</html>

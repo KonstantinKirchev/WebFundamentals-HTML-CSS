@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid black;
+    background-image: url("Bogomil.png"),url("Angel.png"),
+    url('Nikolay.png'),url('Three-Softwareers-logo.jpg'),
+    url('Background.jpg');
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+}

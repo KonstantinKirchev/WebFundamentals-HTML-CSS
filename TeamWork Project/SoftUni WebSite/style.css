@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 10px;
+    width:100%;
+}
+body{
+    background-color: gold;
+}
+.darkBG{
+    background: #1e0536;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.darkerBG{
+    background: #8a0030;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.darkestBG{
+    background: #174c12;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar-brand:hover{
+    color: #ffd700;
+    background-color: #ffd500;
+}
+.aside{
+    float: right;
+    margin-right: 5%;
+    border: 1px solid black;
+    background-color: #ffd700;
+}
+#bs-example-navbar-collapse-1 > form{
+    margin-left: 290px;
+}

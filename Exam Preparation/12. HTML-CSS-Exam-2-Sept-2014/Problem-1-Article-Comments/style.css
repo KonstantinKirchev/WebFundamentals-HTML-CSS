@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(237, 242, 249);
+}
+main{
+    margin: 40px auto;
+    width: 768px;
+    background-color: rgb(253, 253, 254);
+    padding: 5px 10px;
+}
+body > main > section:nth-child(2) > article > img{
+    margin-top: 10px;
+}
+body > main > section:nth-child(2){
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+body > main > section:nth-child(2) > article{
+    display: inline-block;
+    width: 680px;
+}
+body > main > section:nth-child(2) > aside{
+    display: inline-block;
+    width: 80px;
+    vertical-align: top;
+}
+body > main > section:nth-child(2) > article > header{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px;
+}
+body > main > section:nth-child(2) > article > p{
+    margin-bottom: 10px;
+}
+body > main > section:nth-child(2) > aside{
+    margin-top: 10px;
+}
+body > main > section:nth-child(2) > aside > p:nth-child(1) > img{
+    margin-left: 5px;
+}
+body > main > section:nth-child(2) > aside > p:nth-child(2){
+    text-align: right;
+}
+body > main > section:nth-child(2) > aside > p{
+    text-align: right;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(169, 169, 169);
+}
+body > main > section > aside > p{
+    color: red;
+    font-weight: bold;
+}
+body > main > section:nth-child(2) > article > header > p{
+    color: rgb(169, 169, 169);
+    font-size: 0.8em;
+    font-weight: bold;
+}

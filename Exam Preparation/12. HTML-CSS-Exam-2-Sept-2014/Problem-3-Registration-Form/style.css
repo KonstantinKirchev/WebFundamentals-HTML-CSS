@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-Regular.ttf");
+}
+body{
+    background: url("body-background.jpg");
+}
+#wrapper{
+    margin: 0 auto;
+    width: 450px;
+    font-family: Montserrat;
+}
+#wrapper > header{
+    text-align: center;
+    color: rgb(240, 142, 50);
+    margin-bottom: 20px;
+}
+#wrapper > form{
+    background-color: rgb(232, 220, 199);
+    border-radius: 5px;
+}
+.email{
+    width: 335px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 20px 15px 10px 15px;
+    background: url("icon-email.png") no-repeat;
+    background-color: rgb(253, 250, 243);
+    background-position-y: -5px;
+    background-position-x: 7px;
+}
+.password{
+    width: 335px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 0 15px 10px 15px;
+    background: url("icon-password.png") no-repeat;
+    background-color: rgb(253, 250, 243);
+    background-position-y: -5px;
+    background-position-x: 7px;
+}
+.name{
+    width: 335px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 5px 15px;
+    background: url("icon-name.png") no-repeat;
+    background-color: rgb(253, 250, 243);
+    background-position-y: -5px;
+    background-position-x: 7px;
+}
+#wrapper > form > label{
+    margin-left: 15px;
+}
+#wrapper > form > div{
+    width: 373px;
+}
+#wrapper > form > div > input[type="submit"]:nth-child(1){
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(4, 176, 219);
+    margin: 20px 15px;
+    font-size: 1.3em;
+}
+#wrapper > form > div > div{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("tick.png");
+    background-position: center;
+    border: 1px solid saddlebrown;
+    background-color: rgb(251, 246, 236);
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#wrapper > form > div > label{
+    font-size: 0.8em;
+}

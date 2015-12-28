@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="wrapper">
+    <h1>fakebook<span>&reg;</span></h1>
+
+    <h2>Registration</h2>
+
+    <h3>It is safe and it will always be!</h3>
+    <form>
+        <div id="left-column">
+            <fieldset>
+                <legend>None-Important Information</legend>
+                <input type="text" name="first-name" placeholder="First Name"/>
+                <input type="text" name="last-name" placeholder="Last Name"/>
+                <br/>
+                <input type="email" name="email" placeholder="Your Email"
+                        pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"/>
+                <input type="text" name="phone-number" placeholder="Phone Number"
+                        pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}"/>
+                <br/>
+                <input type="password" name="password" placeholder="Your Password"/>
+                <input type="text" name="website" placeholder="Website"/>
+                <br/>
+                <label>
+                    <span>Birthday</span>
+                    <br/>
+                    <input id="birthday" type="datetime-local" name="birthday" required="true"
+                           title="Please use the format: day.month.year"/>
+                </label>
+                <br/>
+                <input name="gender" type="radio" id="gf" value="female"/>
+                <label class="inline" for="gf">Female</label>
+                <input name="gender" type="radio" id="gm" value="male"/>
+                <label class="inline" for="gm">Male</label>
+                <input name="gender" type="radio" id="other" value="other"/>
+                <label class="inline" for="other">Other</label>
+                <br/>
+            </fieldset>
+            <input type="reset" value="Clear Form"/>
+        </div>
+        <div id="right-column">
+            <fieldset>
+                <legend>Important Information *required</legend>
+                <select name="country" id="country">
+                    <option value="country" selected="selected">Country</option>
+                    <option value="bulgaria">Bulgaria</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <input type="text" name="village" placeholder="Village" required="true"/>
+                <input type="text" name="district" placeholder="District" required="true"/>
+                <br/>
+                <input type="text" name="street" placeholder="Street" required="true"/>
+                <input type="text" name="number" placeholder="Nr" required="true"/>
+                <input type="text" name="floor" placeholder="Floor" required="true"/>
+                <input type="text" name="apt-number" placeholder="Ap Nr" required="true"/>
+                <br/>
+                <label>
+                    <span>Door Color</span>
+                    <br/>
+                    <input type="color" id="displayColor" value="#fd7fbf"/>
+                </label>
+                <input type="text" name="water-meter" placeholder="Water Meter Nr" required="true"/>
+                <select name="panties-size" id="panties-size" autofocus="true">
+                    <option value="size" selected="selected">Aunt Panties&#x02019; Size</option>
+                    <option value="small">Small</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">Extra Large</option>
+                </select>
+                <br/>
+                <label>
+                    <span>More Personal Information</span>
+                    <br/>
+                    <textarea id="address" name="address" placeholder="Give Us More Information!!!"
+                            required="true"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" class="button" value="Register"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>

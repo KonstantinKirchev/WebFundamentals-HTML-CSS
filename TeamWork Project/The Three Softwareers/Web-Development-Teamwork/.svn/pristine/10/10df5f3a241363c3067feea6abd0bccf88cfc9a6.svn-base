@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Animated;
+    src: url("resources/Animated.ttf");
+}
+@font-face {
+    font-family: Animated;
+    src: url("resources/Animated.ttf");
+}
+#wrapper{
+	margin: 0 auto;
+	width: 80%;
+	border: 1px solid black;
+    background-image: url('images/Bogomil.png'),url('images/Angel.png'),
+    url('images/Nikolay.png'),url('images/Three-Softwareers-logo.jpg'),
+    url('images/Background.jpg');
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+}

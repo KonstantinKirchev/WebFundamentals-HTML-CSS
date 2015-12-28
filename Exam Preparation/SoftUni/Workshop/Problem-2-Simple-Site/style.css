@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(http://fonts.gstatic.com/s/patuaone/v6/yAXhog6uK3bd3OwBILv_SFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/patuaone/v6/yAXhog6uK3bd3OwBILv_SD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+	width: 940px;
+	margin: 10px auto;
+	padding: 5px;
+	font-family: Georgia;
+}
+
+#wrapper > header {
+	text-align: center;
+}
+
+#wrapper > header > img, 
+#wrapper > header > h1 {
+	display: inline-block;
+}
+
+#wrapper > header > img {
+	width: 45px;
+}
+
+#wrapper > header > h1 {
+	font-family: "Patua One";
+	font-size: 45px;
+	vertical-align: top;
+	color: #333;
+}
+
+#wrapper > header > h4 {
+	font-size: 12px;
+	font-style: italic;
+	color: #777;
+}
+
+#wrapper > nav {
+	margin: 10px 0px;
+	padding: 5px;	
+	text-align: center;
+}
+
+#wrapper > nav > ul {
+	border-top: 2px dashed #000;
+	border-bottom: 2px dashed #000;
+	padding: 5px;
+	width: 500px;
+	margin: 0px auto;
+	color: #555;
+}
+
+#wrapper > nav > ul > li {
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+#wrapper > nav > ul > li > a,
+#wrapper > nav > ul > li > a:visited,
+#wrapper > nav > ul > li > a:active {
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #555;
+	border-radius: 4px;
+}
+
+#wrapper > nav > ul > li > a.current-page,
+#wrapper > nav > ul > li > a.current-page:visited,
+#wrapper > nav > ul > li > a.current-page:active {
+	background: #aaa;
+}
+
+#wrapper > main > img {
+	margin: 10px 0px;
+}
+
+#wrapper > main > aside {
+	width: 200px;
+	float: right;
+}
+
+#wrapper > main > aside > section{
+	width: 180px;
+	height: 120px;
+	margin: 10px;
+	padding: 10px;
+	background: lightblue;
+	box-sizing: border-box;
+	border: 1px dotted #000;
+}
+
+#wrapper > main > aside > section > header > h5 {
+	color: #000;
+	font-size: 11px;
+	margin-top: 10px;
+}
+
+#wrapper > main > aside > section  input[type="text"] {
+	width: 80px;
+	font-size: 12px;
+}
+
+#wrapper > main > aside > section  button {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+#wrapper > main > aside > section > ul {
+	margin-top: 10px;
+}
+
+#wrapper > main > aside > section > ul > li > a {
+	text-decoration: none;
+	color: #000;
+	font-size:10px;
+	margin: 5px 0px;
+}
+
+#wrapper > main > section {
+	width: 730px;
+	float: left;
+
+}
+
+#wrapper > footer {
+	text-align: center;
+	height: 30px;
+	padding-top: 10px;
+	background: orange;
+}
+
+footer > p{
+ 	margin-right: -3000px;
+    padding-right: 3000px;
+    margin-left: -3000px;
+    padding-left: 3000px;
+}
+
+#wrapper > main:after {
+	content: "";
+	display: block;
+	clear: both;
+	zoom: 1;
+}

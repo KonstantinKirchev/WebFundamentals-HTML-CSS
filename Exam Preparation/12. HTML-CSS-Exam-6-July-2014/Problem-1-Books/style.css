@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body > input[type="submit"]{
+    width: 150px;
+    padding: 0 20px;
+    background: url("shopping-cart-inactive.png") no-repeat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body > input[type="submit"]:active{
+    background: url("shopping-cart-active.png");
+}

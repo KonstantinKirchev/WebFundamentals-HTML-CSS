@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Header</title>
+	<link rel="stylesheet" type="text/css" href="Problem4.WebsiteHeader.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header class="navbar-wrapper">
+        <div class="container">
+            <div class="navbar navbar-static-top" role="navigation">
+                <div class="col-sm-12">
+                    <nav class="navbar-header">
+                        <a class="navbar-brand" href="/"><span>Software University</span></a>
+                    </nav>
+
+                    <div class="menuContainer">
+                        <nav class="navContainer">
+                            <ul class="language-picker pull-right">
+                                <li id="bg" class="active-language">
+                                    <a href="#">
+                                        <span class="language lang bg" data-lang="bg">BG</span>
+                                    </a>
+                                </li>
+                                <li id="en">
+                                    <a href="#">
+                                        <span class="language lang en" data-lang="en">EN</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="logIn clearfix">
+                                    <div id="search" class="searchBar">
+                                        <form id="search-form" method="GET" autocomplete="off" action="/Search/Results" class="">
+                                            <input type="text" maxlength="100" placeholder="Търси..." name="query" class="searchInput" id="search-input" data-content="Прекалено къс израз">
+                                            <button type="submit" class="searchButton"></button>
+                                        </form>
+                                    </div>
+
+                                <div class="profileBox clearfix">
+                                    
+
+
+    <div id="personalPicContainer">
+        <img width="80" id="personalPicture" src="/users/profile/ShowAvatar/db64b8da-c413-437f-ba5a-e9681d1cd90b" alt="KonstantinKirchev avatar">
+    </div>
+<form action="/account/logoff" class="accountForm" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="KCQn3qn9f2AR8LHehDpKmBbGfALlceju738LYPvbMAStlmVVGUFPjJHYEkinIW9MFtf76TGE4Y46aBUtS7FLk-GcvE1fdFMbLXmFXkf0ZhWSXsT4c4GLlaZhLPKfQ_401kS2hw2">        <ul id="notificationsTab">
+            <li id="notifications-tab"><ul id="notifications-list" class="hide-notifications"><li id="markAllAsReadButton"><a href="#">Маркирай всички като прочетени<span id="markAsReadstatus"></span></a></li><li class="viewed"><a id="67693" class="notification" href="https://softuni.bg/forum/answers/details/13655"><small><strong>Kaloyan777</strong> добави нов отговор: <strong>Странно, все още нямам резултат, стой ми този от предишното ми явяване на този изпит, който е по-нис...</strong> на вашия въпрос <strong>[Exam] Java Basics - 08 February 2015 - впечатления, решения, резултати</strong>.<br></small></a></li><li class="viewed"><a id="66633" class="notification" href="https://softuni.bg/trainings/homeworkevaluations/myevaluations/1496"><small>Вашето домашно от лекцията <strong>Направете си блог</strong> беше оценено<br></small></a></li><li class="viewed"><a id="66095" class="notification" href="https://softuni.bg/trainings/homeworkevaluations/myevaluations/1496"><small>Вашето домашно от лекцията <strong>Направете си блог</strong> беше оценено<br></small></a></li><li class="viewed"><a id="65788" class="notification" href="https://softuni.bg/forum/answers/details/13565"><small><strong>m.zh.ivanova</strong> добави нов отговор: <strong>Здравейте колеги, можете ли да ми помогнете да си намеря грешките на четвърта задача... в джъджа ми ...</strong> на вашия въпрос <strong>[Exam] Java Basics - 08 February 2015 - впечатления, решения, резултати</strong>.<br></small></a></li><li class="viewed"><a id="65787" class="notification" href="https://softuni.bg/forum/answers/details/13564"><small><strong>iliangrekov</strong> добави нов отговор: <strong>1ва 2ра и 4та са ясни, там нямаше голяма интрига, защото сме ги решавали 10-ки подобни задачи. За 3-...</strong> на вашия въпрос <strong>[Exam] Java Basics - 08 February 2015 - впечатления, решения, резултати</strong>.<br></small></a></li><li><a href="/notifications">Виж всички</a></li></ul>
+                <a id="notifications" href="#"><span class="unread-notifications-count">0</span><span class="notifications"></span></a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                    KonstantinKirchev
+                    <strong class="caret"></strong>
+                </a>
+
+                <ul class="dropdown-menu userDropdown" id="dropdownAdmin">
+                    <li>
+                        <a title="Profile" class="custom-dropdown-header" href="/Users/Profile/Show/"><span class="glyphicon glyphicon-user"></span>&nbsp;Потребителски панел</a>
+                    </li>
+                    <li>
+                        <a title="Manage" href="/Account/Manage/"><span class="glyphicon glyphicon-cog"></span>&nbsp;Управление на акаунта</a>
+                    </li>
+                    <li>
+                        <a title="Edit profile" href="/Users/Profile/Edit/"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Редактиране на профила</a>
+                    </li>
+                    <li>
+                        <a title="Teamwork" href="/Users/Teamwork/List/"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;Екипна работа</a>
+                    </li>
+                    <li>
+                        <a title="Surveys" href="/Users/Surveys/"><span class="glyphicon glyphicon-inbox"></span>&nbsp;Анкети</a>
+                    </li>
+                    <li>
+                        <a title="Traing Labs Schedule" href="/Home/Schedule/"><span class="glyphicon glyphicon-home"></span>&nbsp;График на учебните зали</a>
+                    </li>
+                    <li><a href="/Certificates/Certificates/Apply"><span class="glyphicon glyphicon-star"></span>&nbsp;Сертификати</a></li>
+                    <li><a href="/users/payments/pay"><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;Заплащане</a></li>
+                    <li><a href="/content/sentinel/sentinel.zip"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Sentinel клиент</a></li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Изход</a></li>
+                </ul>
+            </li>
+
+
+        </ul>
+</form>
+                                </div>
+                            </div><!-- /logIn -->
+
+                            <ul class="nav navbar-nav navix" style="margin-left: -1%;">
+                                
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Софтуерен университет <strong class="caret"></strong>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/about">За университета</a></li>
+                                        <li><a href="/curriculum">Учебен план</a></li>
+                                        <li><a href="/trainers">Преподаватели</a></li>
+                                        <li><a href="/professions">Сертификати</a></li>
+                                        <li><a href="/majors">Дипломи</a></li>
+                                        <li><a href="/plans">Такси и стипендии</a></li>
+
+                                            <li><a href="/news/SGExpressbank-student-loan">Финансиране</a></li>
+
+                                        <li><a href="/how-to-apply">Как да кандидатствате</a></li>
+                                    </ul>
+                                </li>
+
+
+<li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        Активни обучения
+        <strong class="caret"></strong>
+    </a>
+
+    <ul class="dropdown-menu">
+            <li>
+                <a href="/trainings/courses/list/2" class="custom-dropdown-header">Ниво 0</a>
+            </li>
+                <li>
+                    <a href="/trainings/1078/CSharp-Basics-Alpha-Jan-2015">C# Basics Alpha януари 2015</a>
+                </li>
+                <li>
+                    <a href="/trainings/1079/CSharp-Basics-Omega-Jan-2015">C# Basics Omega януари 2015</a>
+                </li>
+                <li>
+                    <a href="/trainings/1089/Programming-Basics-Feb-2015">Programming Basics февруари 2015</a>
+                </li>
+            <li>
+                <a href="/trainings/courses/list/3" class="custom-dropdown-header">Ниво 1</a>
+            </li>
+                <li>
+                    <a href="/trainings/1087/Web-Fundamentals-HTML-CSS-Feb-2015">Web Fundamentals (HTML/CSS) Feb 2015</a>
+                </li>
+                <li>
+                    <a href="/trainings/1081/Teamwork-and-Personal-Skills-Jan-2015">Teamwork and Personal Skills януари 2015</a>
+                </li>
+            <li>
+                <a href="/trainings/courses/list/4" class="custom-dropdown-header">Ниво 2</a>
+            </li>
+                <li>
+                    <a href="/trainings/1082/OOP-Jan-2015">ООП януари 2015</a>
+                </li>
+                <li>
+                    <a href="/trainings/1083/High-Quality-Code-Jan-2015">Качествен програмен код януари 2015</a>
+                </li>
+            <li>
+                <a href="/trainings/courses/list/5" class="custom-dropdown-header">Ниво 3</a>
+            </li>
+                <li>
+                    <a href="/trainings/20/Databases-Feb-2015">Бази данни февруари 2015</a>
+                </li>
+
+        
+        <li>
+            <a href="/trainings/specialized" class="custom-dropdown-header">Специализирани курсове</a>
+        </li>
+            <li>
+                <a href="/trainings/1060/Linux-System-Administration-Oct-2014">Linux System Administration (Oct 2014)</a>
+            </li>
+            <li>
+                <a href="/trainings/1085/web-fundamentals-feb-2015-specialized">Web Fundamentals HTML/CSS (Feb 2015)</a>
+            </li>
+
+        <li>
+            <a class="custom-dropdown-header" href="/trainings/seminars/list">Семинари</a>
+            
+        </li>
+
+            <li>
+                <a href="/trainings/1090/content-marketing-workshop">Content Marketing Workshop</a>
+            </li>
+            <li>
+                <a href="/trainings/1091/burnout">Burnout</a>
+            </li>
+
+        <li>
+            <span class="custom-dropdown-header non-link">Архив</span>
+        </li>
+        <li>
+            <a href="/trainings/courses/list">Курсове</a>
+        </li>
+        <li>
+            <a href="/trainings/specialized#list">Специализирани курсове</a>
+        </li>
+        <li>
+            <a href="/trainings/seminars/list">Семинари</a>
+        </li>
+    </ul>
+</li>
+
+
+                                <li><a href="/companies">Работа</a></li>
+                                <li><a href="/university/companies/partners">Партньори</a></li>
+                                <li><a href="/forum">Форум</a></li>
+                                <li><a href="/contacts">Контакти</a></li>
+
+
+                            </ul><!-- /nav navbar-nav navix -->
+
+                        </nav><!-- /navbar-collapse collapse -->
+                        <a href="javascript:;" id="toggleNavigation">
+                            <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">
+                            <defs></defs>
+                            <line id="topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="2.5" x2="32.5" y2="2.5"></line>
+                            <line id="middleLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="12.5" x2="32.5" y2="12.5"></line>
+                            <line id="bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="22.5" x2="32.5" y2="22.5"></line>
+                                </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

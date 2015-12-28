@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 890px;
+    background-color: #3b5996;
+    font-family: "Tahoma", "Time New Roman", "sans-serif";
+    color: white;
+}
+#wrapper > h1{
+    font-size: 7em;
+    text-align: center;
+}
+#wrapper > h1 > span{
+    font-size: 0.1em;
+    margin-left: 5px;
+}
+#wrapper > h2{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+#wrapper > h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#left-column{
+    display: inline-block;
+    padding: 10px;
+}
+#right-column{
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+    vertical-align: top;
+}
+#left-column > fieldset > legend{
+    text-align: center;
+}
+#left-column > fieldset > input[type="text"]:nth-child(2){
+    width: 150px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#left-column > fieldset > input[type="text"]:nth-child(3){
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#left-column > fieldset > input[type="email"]:nth-child(5){
+    width: 150px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#left-column > fieldset > input[type="text"]:nth-child(6){
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#left-column > fieldset > input[type="password"]:nth-child(8){
+    width: 150px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#left-column > fieldset > input[type="text"]:nth-child(9){
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+#birthday{
+    width: 230px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#left-column > fieldset > label:nth-child(14){
+    margin-right: 20px;
+}
+#left-column > fieldset > label:nth-child(16){
+    margin-right: 20px;
+}
+#left-column > fieldset{
+    padding: 10px 10px 45px 10px;
+    border-radius: 10px;
+
+}
+#left-column > input{
+    width: 342px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #39609d;
+    font-size: 18px;
+}
+#right-column > fieldset{
+    padding: 10px;
+    border-radius: 10px;
+}
+#right-column > fieldset > legend{
+    text-align: center;
+}
+#country{
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+#panties-size{
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(3){
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(4){
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(6){
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(7){
+    width: 75px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(8){
+    width: 75px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(9){
+    width: 75px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#displayColor{
+    width: 150px;
+    margin-top: 10px;
+}
+#right-column > fieldset > input[type="text"]:nth-child(12){
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+#address{
+    width: 465px;
+    height: 54px;
+    border-radius: 5px;
+}
+#right-column > input{
+    margin-top: 10px;
+    width: 500px;
+    color: #39609d;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 3px;
+}
+

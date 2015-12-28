@@ -1,0 +1,97 @@
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("4. background.jpg") no-repeat;
+    background-size: cover;
+
+}
+#wrapper{
+    margin: 0 auto;
+    width: 520px;
+}
+#wrapper > form{
+    margin: 0;
+    width: 520px;
+    height: 525px;
+    background-color: rgba(89, 108, 122, 0.5);
+}
+#wrapper > form > input[type="text"]:nth-child(1){
+    background: url(5.%20name.svg) no-repeat;
+    background-size: 8%;
+    background-color: white;
+    background-position: left;
+    background-position-x: 8px;
+    padding-left: 50px;
+    margin: 50px 25px 10px 25px;
+    width: 80%;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+#wrapper > form > input[type="email"]:nth-child(2){
+    background: url(6.%20email.svg) no-repeat;
+    background-size: 8%;
+    background-color: white;
+    background-position: left;
+    background-position-x: 8px;
+    padding-left: 50px;
+    margin: 10px 25px;
+    width: 80%;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+#wrapper > form > textarea{
+    background: url(7.%20comment.svg) no-repeat;
+    background-size: 8%;
+    background-color: white;
+    background-position: top;
+    background-position-x: 8px;
+    background-position-y: 5px;
+    padding-left: 50px;
+    margin: 10px 25px;
+    width: 80%;
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+#wrapper > form > input[type="submit"]:nth-child(4){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    margin: 10px 25px;
+    width: 90%;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(53, 151, 218);
+    border: 2px solid rgb(249, 252, 250);
+    color: rgb(249, 252, 250);
+}
+#wrapper > form > textarea:focus{
+    color: rgb(120, 177, 212);
+}
+#wrapper > form > input[type="submit"]:nth-child(4):hover{
+    background-color: white;
+    color: rgb(53, 151, 218);
+    border-color: rgb(53, 151, 218);
+}

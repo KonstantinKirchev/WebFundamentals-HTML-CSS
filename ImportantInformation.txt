@@ -1,0 +1,157 @@
+﻿<pre></pre> - Preformatted text - Показва текста така както е написан
+
+<h1 id="exercises">Exercises</h1>
+See the <a href="#exercises">exercises</a> - Като натисна exercises отива на h1 "Exercises". Това е локален линк!!!
+
+&emsp - табулация. (Виж entities in html)
+
+<!--  --> - Така си слагам коментари по кода
+
+<a href="../2.%20HTML5-Overview.pptx">presentation</a> - Линк към локална страница или файл.
+
+<dl><dt>HTML</dt><dd>A markup language …</dd></dl> - Лист без нищо по него
+
+font-weight: bold; - одебелен шрифт
+
+img:hover{cursor: pointer;opacity: 0.5;} - При преминаване на мишката над текст или картинка курсора става ръчичка,
+а цветът на картинката избледнява
+
+list-style-type:none; - Премахва всичко пред листа (номерация или точка)
+
+display:block;(inline)(inline block) - Прави един блок от елементите и ги подрежда в линия
+
+section{display:block;width:85%;} - Цялото съдържание с текста го правя на блок и му давам ширина в проценти
+
+aside{float:right;width:10%;} - Поставям side bar от дясно и му давам ширина в проценти
+
+<tr><th>Full Name</th></tr> - tr- ред в таблицата, th- заглавната клетка
+ 
+<tr><td>Grade</td></tr> - td- клетка в таблицата
+
+<table cellspacing=""cellspadding=""><thead><tfoot><tbody>
+<td colspan="" rowspan="">
+
+.header a{color:green} - искам всички линкове в класа header да са с цвят зелен
+
+.header, a{color:green} - искам всички линкове и всички класове header да са с цвят зелен
+
+#menu>ul>li - намери ми всички ul които са директно вложени в id menu и на тях ми намери всички li които са директно
+вложени в ul.
+
+h1 { font-family: Verdana, sans-serif; } - Трябва да слагам повече от един фонт ако не зареди 1вият да зареди следващият
+
+p.item a { text-decoration: underline } - This matches all <a> tags that are inside of <p class="item">
+
+p * {color: black;} - Всички неща в p да бъдат в черен цвят. *чката хваща всичко!!!
+
+<form id="search-form">
+<input type="text" name="query" placeholder="Search" /> - Така създавам прозорче в което пише Search
+<input type="submit" /> - Така създавам бутон Submit
+</form>
+
+a[title*=logo] { border: none } - Selects <a> elements whose title contains the word "logo":
+
+p:first-line { text-transform: uppercase } - Прави 1вият ред от параграфа с главни букви
+
+p:first-letter { font-family: "Old English Text MT" } - Прави 1вата буква различна
+
+.title:before { content: "»" } - Ще сложи този знак в началото на title
+.title:after { content: "«" } - Ще сложи този знак в края на title
+
+p:nth-of-type(3) - Ми хваща 3тият параграф
+
+E:last-child или E:first-child - Връща последният или първият елемент
+
+tr:nth-child(2n) или 2n+1 или even(odd)- Прилага се за стилизация на четни и нечетни редове в таблица
+
+E:enabled или E:disabled - Срещат се при формички(някой бутон мога или немога да го кликам) да им променям стила
+
+E:checked - Използва се при радио бутони и chechbox кутийки (Разгледай демото към лекцията CSS основи)
+
+p ~ ul - Прилагам стила на всичките ul след p тага.
+
+line-height: 60px - Размер на височината на реда(клетката)
+
+letter-spacing: -2px - Разстоянието м/у две съседни букви. (word-spacing)- разстоянието м/у две съседни думи
+
+text-indent - една табулация на вътре на първият ред от параграфа.
+
+text-transform – uppercase, lowercase, capitalize(Прави всяка начална буква главна)
+
+Text align: justify - Подравнява текста отвсякъде.
+
+@font-face {font-family: SketchRockwell; src: url('SketchRockwell-Bold.ttf');} - Така си зареждаме нашият шрифт
+body {font-family: SketchRockwell; font-size: 3.2em;} - После го викаме в body
+
+text-shadow: 2px 2px 7px #000000; - <horizontal-distance> <vertical-distance> <blur-radius> <shadow-color>;
+
+text-overflow: ellipsis; - displays ellipses (…) to represent the clipped text
+
+text-overflow: clip; - default value, clips the text
+
+word-wrap: break-word; - чупи думата и я пренася на нов ред
+word-wrap: normal; - събира думите в контейнера, но не чупи дългите думи и те излизат извън контейнера
+
+border:none - премахва бордъра
+
+box-shadow: 10px 10px 5px #888; - offset, size, blur and color
+box-sizing: border-box; -запазва големината на контейнера(когато има падинги те изблъскват контейнера навън)
+
+overflow-x: auto;
+overflow-y: auto;
+overflow: hidden; - скрива ми текста отдолу, тъй като не се побира в кутийката
+
+vertical-align: middle;
+
+ul > li:hover > li {display:block;}
+
+outline: red solid 3px; - An outline is a line that is drawn around elements (outside the borders)
+ to make the element "stand out". However, the outline property is different from the border property.
+The outline is not a part of an element's dimensions; the element's total width and height is not affected by the width of the outline.
+
+text-transform: uppercase; - прави всички букви главни
+
+background: url('') no-repeat; - за картинка на цял екран. Слага се в body.
+background-size: cover; или background-possition: fixed;
+
+span:before{content: url('')}; - за поставяне на иконки пред бутони или input полета;
+
+input:focus{border: 1px solid blue}
+box-sizing: border-box;
+
+position: static; - е дефолтната му стойност;
+
+width: auto;
+
+background: url('') no-repeat;
+background-possition: left center;
+background-color: grey; -по този начин си поставям картинка пред текста в input 
+
+outline: none; - премахва автоматичното оцветяване на border при focus на chrome.
+
+#wrapper > form > input[type="submit"]{
+    width: 200px;
+    line-height: 20px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid green;
+    box-shadow: 0px 2px green;
+    background-color: darkgreen;
+} - така си слагам shadow и радиус за да се получи 3д ефект на submit бутон
+
+img src="" class="" title=""
+title="Test" - изписва Test при hover на картинка или нешо друго.
+
+@import url(http//........);
+
+
+
+
+
+
+
+
+
+
+
+

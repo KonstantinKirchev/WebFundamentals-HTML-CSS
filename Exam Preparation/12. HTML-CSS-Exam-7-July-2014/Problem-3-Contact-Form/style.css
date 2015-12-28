@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("form-background.png");
+}
+#wrapper{
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+}
+#wrapper > h1{
+    text-align: center;
+    margin-bottom: 175px;
+}
+#wrapper > img:nth-child(2){
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    left: 35px;
+}
+#wrapper > form{
+    width: 460px;
+    height: 500px;
+    background: url("letter-background.png");
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 70px;
+}
+#wrapper > img:nth-child(5){
+    position: absolute;
+    z-index: 2;
+    left: 35px;
+    top: 396px;
+}
+#wrapper > form > label{
+    float: left;
+}
+#message{
+    background: url("letter-background.png");
+    margin-left: 26px;
+    border-radius: 5px;
+    width: 400px;
+}
+#wrapper > form > label:nth-child(5){
+    float: left;
+}
+#wrapper > form > input[type="text"]:nth-child(6){
+    width: 422px;
+    height: 30px;
+}
+#wrapper > form > label:nth-child(7){
+    float: left;
+}
+#wrapper > form > input[type="email"]:nth-child(8){
+    width: 422px;
+    height: 30px;
+}
+#wrapper > form > input[type="submit"]:nth-child(9){
+    margin-left: 175px;
+    margin-top: 65px;
+    border: none;
+    background: url("letter-background.png");
+    position: absolute;
+    z-index: 6;
+}
+#wrapper > form > input[type="submit"]:nth-child(9):hover{
+    border: 1px solid #000000;
+}
+#wrapper > form:nth-child(4) > label{
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    top: 300px;
+}
+#email{
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    top: 350px;
+}
+#wrapper > form:nth-child(4) > input[type="submit"]:nth-child(3){
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    top: 400px;
+}
+#wrapper > form:nth-child(4){
+    background: none;
+    position: absolute;
+    z-index: 21;
+}

@@ -1,0 +1,76 @@
+#wrapper { 
+	width: 97%;
+	margin: 10px;
+	border: 1px dotted #000;
+	padding: 5px;	
+}
+
+#wrapper > header h1 {
+	background-color: #e9F5FE;
+	padding: 0px 5px 5px 5px;
+	color: darkblue;
+	font-size: 23px;
+	font-family: Verdana, Helvetica;
+	margin:0;
+	border: 1px dotted #000;
+}
+
+section {
+	margin-left: 10px;	
+}
+
+section > header h3{
+	font-size: 15px;
+	color: lightblue;
+}
+
+section > ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+section > ul > li {
+	width: 100px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	margin-left: -3px;
+	cursor: pointer;
+}
+
+section > ul > li a,
+section > ul > li a:visited,
+section > ul > li a:active,
+.flex-section > div > a,
+.flex-section > div > a:visited,
+.flex-section > div > a:active  {
+	text-decoration: none;
+	color: #000;
+}
+
+section > ul > li:hover,
+.flex-section > div:hover {
+	background: purple;	
+	border-radius: 5px;
+}
+
+
+section > ul > li > a > p {
+	margin: 0;
+}
+
+.flex-section{
+	display: flex;
+	flex-flow:row wrap;
+}
+
+.flex-section > div {
+	text-align: center;
+	width: 100px;	
+	cursor: pointer;
+}
+
+.flex-section > div p {
+	margin: 0px;
+	font-size: 14px;
+}

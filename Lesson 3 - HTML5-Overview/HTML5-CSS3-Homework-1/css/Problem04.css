@@ -1,0 +1,19 @@
+ol.firstOlList {
+	list-style-type: upper-roman;
+}
+
+ol.secondOlList {
+	list-style-type: lower-alpha;
+}
+
+ul.firstUlList {
+  list-style-type: circle;
+}
+
+ul.secondUlList {
+  list-style-type: square;
+}
+
+ul.thirdUlList {
+  list-style-type: disc;
+}

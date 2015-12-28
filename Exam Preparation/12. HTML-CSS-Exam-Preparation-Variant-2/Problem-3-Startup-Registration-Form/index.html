@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Start-Registration-Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="index.html" about="post">
+            <h1>Tell us about your startup:</h1>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"
+                   pattern="[A-Za-z]+" required="true"/>
+            <label for="email">Email</label>
+            <input type="email" id="email"
+                   pattern="[A-Za-z]+[0-9]*@[A-Za-z]+[0-9]*.[A-Za-z]{2,3}" required="true"/>
+            <label for="phone">Phone</label>
+            <input type="number" id="phone"
+                    pattern="13213" required="true"/>
+            <label for="budget">Budget</label>
+            <input type="number" id="budget"
+                    pattern="" required="true"/>
+        </form>
+    </div>
+</body>
+</html>

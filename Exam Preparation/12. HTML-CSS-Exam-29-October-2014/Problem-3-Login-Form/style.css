@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("background.png");
+}
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url(glyphicons-halflings-regular.ttf);
+}
+#wrapper{
+    margin: 30px auto;
+    width: 750px;
+    height: 320px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    background-color: rgb(51, 51, 51);
+}
+#wrapper > header{
+    margin: 20px 20px 10px 20px;
+    padding-top: 30px;
+}
+#lobster{
+    font-family: Lobster;
+    color: rgb(211, 228, 237);
+    background-color: rgb(103, 152, 102);
+    text-align: center;
+}
+.advertisement, form{
+    width: 350px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;
+}
+#wrapper > section{
+    margin-left: 20px;
+    background-color: rgb(35, 35, 35);
+}
+#wrapper > form{
+    margin-left: 20px;
+
+}
+#wrapper > section > div{
+    height: 98px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+#wrapper > section > div:before{
+    font-family: "Glyphicons Halflings";
+    content: "\e104";
+    color: rgb(214, 228, 237);
+    display: block;
+    margin: 10px 0 0 40%;
+    font-size: 4rem;
+}
+#wrapper > section > ul{
+    text-align: center;
+    margin: 15px 0 10px 0;
+}
+#wrapper > section > ul > li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: rgb(214, 228, 237);
+    cursor: pointer;
+}
+#wrapper > section > ul > li:before{
+    font-family: "Glyphicons Halflings";
+    content: "\e089";
+    color: rgb(214, 228, 237);
+    margin-right: 5px;
+}
+#wrapper > form > h3{
+    text-align: center;
+    color: rgb(214, 228, 237);
+    margin-bottom: 10px;
+}
+#wrapper > form > label:nth-child(2):before{
+    font-family: "Glyphicons Halflings";
+    content: "\e008";
+    background-color: rgb(103, 152, 102);
+    padding: 10px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    color: rgb(85, 85, 85);
+}
+#user, #country {
+    padding: 10px 10px;
+    width: 260px;
+    border-radius: 0 5px 5px 0;
+    margin: 8px 0;
+
+}
+#wrapper > form > label:nth-child(4):before{
+    font-family: "Glyphicons Halflings";
+    content: "\e135";
+    background-color: rgb(103, 152, 102);
+    padding: 10px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    color: rgb(85, 85, 85);
+}
+#wrapper > form > input[type="submit"]{
+    padding: 10px 0;
+    width: 320px;
+    border-radius: 5px;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    color: rgb(253, 253, 254);
+    margin-top: 10px;
+    cursor: pointer;
+}
+#wrapper > form > input[type="submit"]:hover{
+    background-color: rgb(103, 152, 102);
+}
+

@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Daemones;
+    src: url("DAEMONES.ttf");
+}
+@font-face {
+    font-family: Animated;
+    src: url("MB-Demonic_Tale.ttf");
+}
+body {
+    font-family: Daemones;
+    /* Location of the image */
+    background-image: url("resources/Bogomil.png"),url("resources/Nikolay.png"),url("resources/Angel.png"),
+    url("resources/Background.jpg");
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Makes the image fixed in the viewport so that it doesn't move when
+       the content height is greater than the image height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: 100%;
+
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+}
+#wrapper > main > div:nth-child(1) > a{
+    width: 15%;
+    height: 90%;
+    top: 2%;
+    left: 17%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#wrapper > main > div:nth-child(2) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 53%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#wrapper > main > div:nth-child(3) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 71%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#wrapper > main > div:nth-child(4) > a{
+    width: 14%;
+    height: 90%;
+    top: 2%;
+    left: 87%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#wrapper > main > div:nth-child(5) > a{
+    width: 16%;
+    height: 90%;
+    top: 2%;
+    left: 0%;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid black;
+}

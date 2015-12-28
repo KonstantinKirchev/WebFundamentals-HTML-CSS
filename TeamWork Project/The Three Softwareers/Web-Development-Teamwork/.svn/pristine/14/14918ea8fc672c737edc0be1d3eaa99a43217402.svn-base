@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>The Three Softwareers/Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../styles/CSS-Reset.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <main>
+            <img class="background" src="../images/Background.jpg" alt="Background">
+            <a href="fan-page.html" class="alex"></a>
+            <a href="contact-us.html" class="contacts"></a>
+            <a href="our-mission.html" class="mission"></a>
+            <a href="https://softuni.bg/" class="news"></a>
+            <a href="Angelos.html" class="angelos"></a>
+            <a href="Bogomos.html" class="bogomos"></a>
+            <a href="Nikolas.html" class="nikolas"></a>
+            <a href="https://softuni.bg/" target="blank" class="logo"></a>
+        </main>
+    </div>
+</body>
+</html>

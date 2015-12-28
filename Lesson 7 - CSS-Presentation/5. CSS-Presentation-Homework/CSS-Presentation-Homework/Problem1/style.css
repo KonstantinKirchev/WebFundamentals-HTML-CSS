@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+.outer{
+    margin: 10px auto;
+    width: 500px;
+    height: 200px;
+    border-left-style: dashed;
+    border-left-color: red;
+    border-left-width: 5px;
+    border-top-style: dotted;
+    border-top-color: yellow;
+    border-top-width: 5px;
+    border-right-style: solid;
+    border-right-color: green;
+    border-right-width: 10px;
+    border-bottom-style: double;
+    border-bottom-color: blue ;
+    border-bottom-width: 8px;
+    -webkit-box-shadow: 10px 10px 5px #3F3F3F;
+    box-shadow: 10px 10px 5px #3F3F3F;
+}
+#wrapper > div > h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    text-shadow: 7px 10px 6px rgba(171, 168, 171, 0.78);
+    z-index: -1;
+}
+#wrapper > div.cool{
+    position: absolute;
+    left: 687px;
+    top: 22px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgba(168,169,169,0.8);
+    border-radius: 25px;
+    float: right;
+    z-index: 1;
+}
+
+#wrapper > div.big-circle{
+    position: absolute;
+    left: 648px;
+    top: 71px;
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-style: dashed;
+    border-color: white;
+    background-color: rgba(168,169,169,0.8);
+    border-radius: 20px;
+    z-index: 2;
+}
+#wrapper > div.small-circle{
+    position: absolute;
+    left: 610px;
+    top: 120px;
+    width: 18px;
+    height: 18px;
+    float: right;
+    border-style: dashed;
+    border-color: white;
+    background-color:  rgba(168,169,169,0.8);
+    border-radius: 15px;
+    z-index: 3;
+}
+#wrapper > div > div.inner{
+    margin-top: 23px;
+    margin-left: 25px;
+    width: 450px;
+    height: 105px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 20px;
+    z-index: -1;
+}
+#wrapper > div > div.inner > div{
+    border-radius: 60px;
+    border: 2px solid blue;
+    z-index: -1;
+}
+#wrapper > div > div.inner > div > div{
+    border-radius: 60px;
+    border: 2px solid green;
+    z-index: -1;
+}
+#wrapper > div > div.inner > div > div > div{
+    border-radius: 60px;
+    border: 2px solid yellow;
+    z-index: -1;
+}
+#wrapper > div > div.inner > div > div > div > div{
+    border-radius: 60px;
+    border: 2px solid red;
+    z-index: -1;
+}
+#wrapper > div > div.inner > div > div > div > div > p{
+    text-align: center;
+    padding: 20px;
+    text-shadow: 7px 10px 6px rgba(171, 168, 171, 0.78);
+}
+#wrapper > div > div.inner > div > div > div > div > div > div.one{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top: 3px solid rgb(255, 194, 0);
+    border-left: 3px solid rgb(255, 194, 0);
+    border-bottom: 3px solid rgb(176, 103, 15);
+    border-right: 3px solid rgb(176, 103, 15);
+    background-color: rgb(239, 155, 0);
+
+}
+#wrapper > div > div.inner > div > div > div > div > div > div.two{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top: 3px solid rgb(255, 194, 0);
+    border-left: 3px solid rgb(255, 194, 0);
+    border-bottom: 3px solid rgb(176, 103, 15);
+    border-right: 3px solid rgb(176, 103, 15);
+    background-color: rgb(239, 155, 0);
+}
+#wrapper > div > div.inner > div{
+    width: 450px;
+    display: inline-block;
+}
+#wrapper > div > div.inner > div > div > div > div > div{
+    padding-bottom: 10px;
+}

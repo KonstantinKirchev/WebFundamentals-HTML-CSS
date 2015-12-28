@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 920px;
+}
+header{
+    margin: 0 auto;
+    background-color: #ededed;
+}
+#wrapper > header > nav > ul > li{
+    display: inline-block;
+    margin-left: 60px;
+}
+#wrapper > header > nav > ul > li > a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #808081;
+    font-weight: bold;
+}
+#wrapper > header > nav{
+    height: auto;
+}
+#wrapper > header > nav > ul > li:nth-child(1) > a,
+#wrapper > header > nav > ul > li:nth-child(1) > a:hover{
+    color: #f89501;
+}
+#wrapper > header > nav > ul > li > a:hover{
+    background-color: #c9d0d0;
+    padding: 10px 15px;
+    color: #555555;
+    border-radius: 10px;
+}
+#wrapper > header > img{
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    margin: 20px;
+}
+#wrapper > header > nav{
+    display: inline-block;
+    width: 750px;
+    vertical-align: middle;
+}
+
+#wrapper > main{
+    margin: 0 auto;
+    width: 840px;
+}
+#wrapper > footer{
+    background-color: #ececec;
+}
+#wrapper > footer > p{
+    display: inline-block;
+    width: 320px;
+    vertical-align: middle;
+    padding: 20px;
+}
+#wrapper > footer > ul{
+    display: inline-block;
+    width: 210px;
+    height: 50px;
+    margin-left: 310px;
+}
+#wrapper > footer > ul > li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+#wrapper  footer  ul  li.facebook{
+    background: url("icons.png") 0px 0px;
+}
+#wrapper  footer  ul  li.facebook:hover{
+    cursor: pointer;
+    background: url("icons.png") 30px 0px;
+}
+#wrapper  footer  ul  li.google{
+    background: url("icons.png") 0px 110px;
+}
+#wrapper  footer  ul  li.google:hover{
+    cursor: pointer;
+    background: url("icons.png") 30px 110px;
+}
+#wrapper  footer  ul  li.twitter{
+    background: url("icons.png") 0px 70px;
+}
+#wrapper  footer  ul  li.twitter:hover{
+    cursor: pointer;
+    background: url("icons.png") 30px 70px;
+}
+#wrapper  footer  ul  li.t{
+    background: url("icons.png") 0px 30px;
+}
+#wrapper  footer  ul  li.t:hover{
+    cursor: pointer;
+    background: url("icons.png") 30px 30px;
+}
+#wrapper > main > section{
+    display: inline-block;
+    width: 365px;
+    vertical-align: top;
+}
+#wrapper > main > section:nth-child(2){
+    margin-top: 43px;
+}
+#wrapper > main > section:nth-child(1){
+    margin-top: 20px;
+    margin-right: 50px;
+}
+#wrapper > main{
+    padding: 20px 40px;
+}

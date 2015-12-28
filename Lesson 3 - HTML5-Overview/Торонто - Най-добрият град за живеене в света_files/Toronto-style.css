@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1024px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-image: url("7003234-maple-leaf-canada.jpg");
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	border-width: 200px;
+	border-radius: 10px;
+	text-align: center;
+	color: blue;
+}
+nav{
+	color: white;
+}
+.dropdown{
+	text-align: center;
+}
+#onhover {
+  display: none;
+}
+#surround:hover span[id="initial"] {
+  display: none;
+}
+#surround:hover span[id="onhover"] {
+  display: block;
+}
+#first-nav{
+	background-color: blue;
+	margin: 10px;
+	color: white;
+	float: center;
+}
+iframe{
+	margin: 10px;
+	width: 490px;
+	height: 300px;
+}

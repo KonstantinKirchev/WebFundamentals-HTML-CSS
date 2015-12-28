@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <form action="Contact-Form.html" about="get">
+            <input type="text" name="name" placeholder="Name"
+                    pattern="[A-Za-z]+" required="true"/>
+            <input type="email" name="email" placeholder="Email"
+                   pattern="[A-Za-z]+[0-9]*@[A-Za-z]+[0-9]*.[A-Za-z]{2,3}" required="true"/>
+            <textarea rows="4" placeholder="Comment" required="true"></textarea>
+            <input type="submit" value="Send"/>
+        </form>
+    </div>
+</body>
+</html>
